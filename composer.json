@@ -1,0 +1,21 @@
+{
+  "name": "devmachine/composer-simple",
+  "description": "description_text",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pavel Sheremet",
+      "email": "pavel-sheremet-dev@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "require-dev": {
+    "phpunir/phpunit": "4.8.9"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
